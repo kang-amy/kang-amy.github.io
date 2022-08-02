@@ -1,11 +1,3 @@
-/* a:link, a:visited {
-  color: black;
-  text-decoration: none;
-  border-bottom-color: black;
-  border-bottom-style: solid;
-  border-bottom-width: .0625em;
-} */
-
 .text-link {
   color: black;
   text-decoration: none;
@@ -84,9 +76,7 @@
 /* a:link { text-decoration: none;}
 a:visited { text-decoration: none; color:black}
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; } */ */
-
-
+a:active { text-decoration: none; } */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
