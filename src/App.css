@@ -1,14 +1,17 @@
-
-
+/* a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: .0625em;
+} */
 
 .text-link {
   color: black;
   text-decoration: none;
-  border-bottom: .0625em solid lighten(#98489D,40%);
-  border-bottom-color: lighten(#98489D,40%);
+  border-bottom-color: black;
   border-bottom-style: solid;
   border-bottom-width: .0625em;
-  box-shadow: 0 -.25em 0 lighten(#98489D,40%) inset;
 }
 
 .font-link {
@@ -81,8 +84,7 @@
 /* a:link { text-decoration: none;}
 a:visited { text-decoration: none; color:black}
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; } */
-
+a:active { text-decoration: none; } */ */
 
 
 
