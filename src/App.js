@@ -1,22 +1,18 @@
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import Home from './pages/home';
-import Resume from './pages/resume';
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import Experience from "./pages/experience";
+import Home from "./pages/home";
+import Projects from "./pages/projects";
 
 function App() {
   return (
     <Router>
-        <Routes>
-          <Route path='/' element= {<Home />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
     </Router>
   );
 }
-
-// NOTES
-// add react routing for resume page
-// fix resume URL highlighing thing
-// add bolding or highlighting for keywords
-// add browser title
-// custom URL
 
 export default App;
