@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import motives from "../assets/motives.png";
 import checkIt from "../assets/checkit.png";
 import { BiArrowBack } from "react-icons/bi";
+import newsReview from "../assets/newsreview.jpg";
 
 const projectData = {
   projects: [
@@ -19,7 +20,7 @@ const projectData = {
       title: "News Review",
       techs: "Node.js, Express, JavaScript, Google Cloud Platform",
       para: "A full-stack web app made with the Google Natural Language API to analyze if the news articles of the day are positive or negative.",
-      imageSrc: "1",
+      imageSrc: newsReview,
       url: "https://github.com/kang-amy/news-review",
     },
     {

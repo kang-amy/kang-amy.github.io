@@ -16,8 +16,8 @@ export default function Home() {
 
   return (
     <div className="App">
-      <div className="border"></div>
-      <div className="Main">
+      {/* <div className="border"></div> */}
+      <div className="Main-landing">
         <header className="App-header">
           <p className="font-link">Hey... I'm Amy!</p>
         </header>
