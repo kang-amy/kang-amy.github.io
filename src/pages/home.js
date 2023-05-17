@@ -22,9 +22,9 @@ export default function Home() {
           <p className="font-link">Hey... I'm Amy!</p>
         </header>
 
-        <div className="text">
+        <div className="text-content">
           <div className="font-link">
-            <p>I am Currently...</p>
+            <p>I am Currently...</p> <br />
             <div className="stagger">
               studying in my 2nd year of{" "}
               <a className="text-link" href={mgteLink} target="_blank">
@@ -32,9 +32,11 @@ export default function Home() {
               </a>{" "}
               at the University of Waterloo
               <p className="stagger">
+                <br />
                 finishing up my term working as a Software Engineering Intern at
                 OpenText
               </p>
+              <br />
               spending my free time reading as much as I can &amp; getting gains
               in the gym
             </div>
